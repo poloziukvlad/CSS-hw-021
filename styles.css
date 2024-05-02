@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: linear-gradient(to bottom right, green,purple);
+    height: 200vh;
+    transition: border 2s ease-in;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+
+    background-image: linear-gradient(to top left, red,white);
+    border-radius: 20px;
+    position: sticky;
+    top: 100px;
+    
+}
+
+.box:hover {
+    border: 3px solid black;
+}
+
+.second {
+    background-image: radial-gradient(green,orange);
+    position: absolute;
+    right: 200px;
+    bottom: 300px;
+}
+
+.second:hover {
+    border: 3px solid black;
+}
+
+.third {
+    background-image: radial-gradient(black,blue);
+    position: relative;
+    top: 300px;
+    left: 700px;
+}
+
+.third:hover {
+    border: 3px solid black;
+}
+
+
+
+
