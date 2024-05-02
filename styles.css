@@ -37,8 +37,15 @@ p {
 .main {
     margin-top: 100px;
     border: 3px solid yellow;
-    display: flow-root;
 }
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 
 .content {
     width: 200px;
